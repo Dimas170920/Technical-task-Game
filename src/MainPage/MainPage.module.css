@@ -1,0 +1,30 @@
+.gameField {
+    text-align: center;
+    align-items: center;
+
+}
+
+.gameSquare {
+    display: grid;
+    padding-left: 540px;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+
+}
+
+.square {
+    border: solid 2px black;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 80px;
+}
+
+.results {
+    font-size: 40px;
+    text-align: center;
+}
+
+.info {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
